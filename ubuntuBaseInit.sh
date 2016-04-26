@@ -3,6 +3,7 @@ sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get -y install git
 sudo apt-get -y install docker.io
+sudo usermod -aG docker sdegabri
 sudo apt-get -y install ruby
 sudo apt-get -y install fish
 sudo apt-get -y install emacs
